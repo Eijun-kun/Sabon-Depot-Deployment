@@ -9,7 +9,7 @@ import CustomerRoutes from './routes/CustomerRoutes'
 import AdminStaffRoutes from './routes/AdminStaffRoutes'
 import { isAdminRoute, isAdminStaffRoute, isCustomerRoute, isStaffRoute } from './utils/RoutesUtils';
 
-axios.defaults.baseURL = 'http://localhost:8000';
+axios.defaults.baseURL = 'https://sabon-depot-deployment.vercel.app';
 axios.defaults.withCredentials = true;
 
 
